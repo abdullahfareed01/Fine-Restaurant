@@ -1,0 +1,35 @@
+{
+  // Performance & visuals
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+//   "editor.cursorSmoothCaretAnimation": false,
+  "editor.codeLens": false,
+  "editor.quickSuggestionsDelay": 50,
+  "workbench.statusBar.visible": true,
+  "editor.smoothScrolling": false,
+
+  // Formatting & linting
+  "editor.formatOnSave": true,
+  "editor.formatOnType": false,
+  "eslint.run": "onSave",
+
+  // File indexing / search
+  "files.watcherExclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.git": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+
+  // Git
+  "git.enabled": false,
+
+  // Auto imports
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "javascript.autoImportSuggestions.enabled": true,
+  "typescript.autoImportSuggestions.enabled": true
+}

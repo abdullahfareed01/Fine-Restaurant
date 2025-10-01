@@ -2,10 +2,10 @@
   // Performance & visuals
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "none",
-//   "editor.cursorSmoothCaretAnimation": false,
+  //   "editor.cursorSmoothCaretAnimation": false,
   "editor.codeLens": false,
   "editor.quickSuggestionsDelay": 50,
-  "workbench.statusBar.visible": true,
+  "workbench.statusBar.visible": false,
   "editor.smoothScrolling": false,
 
   // Formatting & linting

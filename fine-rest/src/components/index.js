@@ -2,6 +2,6 @@ import FooterOverlay from "./Footer/FooterOverlay";
 import Newsletter from "./Footer/Newsletter";
 import MenuItem from "./Menuitem/MenuItem";
 import Navbar from "./Navbar/Navbar";
-import SubHeading from "./SubHeading/SubHeading";
+import subHeading from "./subHeading/subHeading";
 
-export { FooterOverlay, Newsletter, MenuItem, Navbar, SubHeading };
+export { FooterOverlay, Newsletter, MenuItem, Navbar, subHeading };

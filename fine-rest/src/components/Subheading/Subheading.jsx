@@ -1,13 +1,13 @@
-import React from 'react';
-import './subheading.css'
-import {images} from '../../constants'
-function SubHeading({ title }) {
+import React from "react";
+import "./subHeading.css";
+import { images } from "../../constants";
+function subHeading({ title }) {
   return (
-    <div style={{ marginBottom: '1rem' }}>
-      <p className='p__cormorant'> {title}</p>
-      <img src={images.spoon} alt="spoon" className='spoon__image' />
+    <div style={{ marginBottom: "1rem" }}>
+      <p className="p__cormorant"> {title}</p>
+      <img src={images.spoon} alt="spoon" className="spoon__image" />
     </div>
-  )
+  );
 }
 
-export default SubHeading
+export default subHeading;

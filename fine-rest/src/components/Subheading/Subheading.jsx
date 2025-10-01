@@ -1,7 +1,7 @@
 import React from 'react';
 import './subheading.css'
 import {images} from '../../constants'
-function Subheading({ title }) {
+function SubHeading({ title }) {
   return (
     <div style={{ marginBottom: '1rem' }}>
       <p className='p__cormorant'> {title}</p>
@@ -10,4 +10,4 @@ function Subheading({ title }) {
   )
 }
 
-export default Subheading
+export default SubHeading

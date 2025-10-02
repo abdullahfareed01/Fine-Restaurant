@@ -1,5 +1,5 @@
 import "./chef.css";
-import { subHeading } from "../../components";
+import { SubHeading } from "../../components";
 import { images } from "../../constants";
 function Chef() {
   return (
@@ -9,7 +9,7 @@ function Chef() {
       </div>
 
       <div className="app__wrapper_info">
-        <subHeading title="chef's word" />
+        <SubHeading title="chef's word" />
         <h1 className="headtext__cormorant">What we belive in</h1>
 
         <div className="app__chef-content">

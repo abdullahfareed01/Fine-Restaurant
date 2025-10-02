@@ -1,4 +1,4 @@
-import { subHeading } from "../../components";
+import { SubHeading } from "../../components";
 import { useRef } from "react";
 import { images } from "../../constants";
 import {
@@ -32,7 +32,7 @@ function Gallery() {
     <>
       <div className="app__gallery flex__center">
         <div className="app__gallery-content">
-          <subHeading title="Instagram"></subHeading>
+          <SubHeading title="Instagram"></SubHeading>
           <h1 className="headtext__cormorant">Photo Gallery</h1>
           <p
             className="p__opensans"

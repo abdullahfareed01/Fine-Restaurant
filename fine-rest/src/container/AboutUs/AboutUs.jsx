@@ -1,6 +1,7 @@
 import React from "react";
 import "./aboutus.css";
-import { images } from "../../constants";
+import images from "../../constants/images";
+
 function AboutUs() {
   return (
     <>

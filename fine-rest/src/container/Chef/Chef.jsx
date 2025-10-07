@@ -1,6 +1,7 @@
 import "./chef.css";
 import { SubHeading } from "../../components";
-import { images } from "../../constants";
+import images from "../../constants/images";
+
 function Chef() {
   return (
     <div className="app__bg app__wrapper section__padding">

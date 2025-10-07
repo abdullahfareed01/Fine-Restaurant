@@ -1,6 +1,8 @@
 import React from "react";
 // import "./subheading.css"
-import { images } from "../../constants";
+// import { images } from "../../constants";
+import images from "../../constants/images";
+
 function SubHeading({ title }) {
   return (
     <div style={{ marginBottom: "1rem" }}>
@@ -11,3 +13,4 @@ function SubHeading({ title }) {
 }
 
 export default SubHeading;
+ 

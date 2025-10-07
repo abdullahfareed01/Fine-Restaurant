@@ -14,6 +14,8 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
     </div>
   </div>
 );
+
+
 function Laurels() {
   return (
     <div className="app__bg app__wrapper section__padding " id="awards">

@@ -1,10 +1,12 @@
 import React from "react";
 
 import { SubHeading, MenuItem } from "../../components";
-import { data, images } from "../../constants";
+import data from "../../constants/data";
+import { images } from "../../constants";
+
 import "./specialmenu.css";
 
-const SpecialMenu = () => (
+function SpecialMenu() {
   <div className="app__specialMenu flex__center section__padding" id="menu">
     <div className="app__specialMenu-title">
       <SubHeading title="Menu that fits your palatte" />
@@ -51,6 +53,6 @@ const SpecialMenu = () => (
       </button>
     </div>
   </div>
-);
+};
 
 export default SpecialMenu;

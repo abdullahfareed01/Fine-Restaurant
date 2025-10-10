@@ -28,6 +28,10 @@ function Gallery() {
     images.gallery04,
   ];
 
+
+
+  
+
   return (
     <>
       <div className="app__gallery flex__center">

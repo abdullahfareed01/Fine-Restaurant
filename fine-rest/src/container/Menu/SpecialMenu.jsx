@@ -1,12 +1,27 @@
-import React from "react";
-
 import { SubHeading, MenuItem } from "../../components";
-import data from "../../constants/data";
+import { wines, cocktails } from "../../constants/data";
+
+
 import { images } from "../../constants";
 
 import "./specialmenu.css";
 
 function SpecialMenu() {
+
+  //  console.log("DEBUG: data.wines (type):", typeof data.wines, Array.isArray(data.wines));
+  // console.log("DEBUG: data.wines sample:", data.wines && data.wines[0]);
+  // const winesNodes = data.wines.map((wine, index) => (
+  //   <MenuItem key={wine.title + index} title={wine.title} price={wine.price} tags={wine.tags} />
+  // ));
+  // console.log("DEBUG: winesNodes valid?", winesNodes.every(React.isValidElement));
+  // // same for cocktails
+  // console.log("DEBUG: data.cocktails (type):", typeof data.cocktails, Array.isArray(data.cocktails));
+  // console.log("DEBUG: data.cocktails sample:", data.cocktails && data.cocktails[0]);
+  // const cocktailsNodes = data.cocktails.map((cocktail, index) => (
+  //   <MenuItem key={cocktail.title + index} title={cocktail.title} price={cocktail.price} tags={cocktail.tags} />
+  // ));
+  // console.log("DEBUG: cocktailsNodes valid?", cocktailsNodes.every(React.isValidElement));
+
   return (
     <div className="app__specialMenu flex__center section__padding" id="menu">
       <div className="app__specialMenu-title">
@@ -18,7 +33,7 @@ function SpecialMenu() {
         <div className="app__specialMenu-menu_wine  flex__center">
           <p className="app__specialMenu-menu_heading">Wine & Beer</p>
           <div className="app__specialMenu_menu_items">
-            {data.wines.map((wine, index) => (
+            {wines.map((wine, index) => (
               <MenuItem
                 key={wine.title + index}
                 title={wine.title}
@@ -36,7 +51,7 @@ function SpecialMenu() {
         <div className="app__specialMenu-menu_cocktails  flex__center">
           <p className="app__specialMenu-menu_heading">Cocktails</p>
           <div className="app__specialMenu_menu_items">
-            {data.cocktails.map((cocktail, index) => (
+            {cocktails.map((cocktail, index) => (
               <MenuItem
                 key={cocktail.title + index}
                 title={cocktail.title}

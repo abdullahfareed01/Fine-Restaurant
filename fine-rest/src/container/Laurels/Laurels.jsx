@@ -1,7 +1,7 @@
 import React from "react";
 import { SubHeading } from "../../components";
 import { images } from "../../constants";
-import { awards } from "../../constants/data"; // ✅ Import the awards array
+import { awards } from "../../constants/data";
 import "./laurels.css";
 
 const AwardCard = ({ award }) => {
@@ -22,7 +22,7 @@ const AwardCard = ({ award }) => {
 };
 
 function Laurels() {
-  const awardsArray = Array.isArray(awards) ? awards : []; // ✅ define it here
+  const awardsArray = Array.isArray(awards) ? awards : []; 
 
   return (
     <div className="app__bg app__wrapper section__padding" id="awards">

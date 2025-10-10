@@ -1,6 +1,4 @@
 import React from "react";
-// import "./subheading.css"
-// import { images } from "../../constants";
 import images from "../../constants/images";
 
 function SubHeading({ title }) {

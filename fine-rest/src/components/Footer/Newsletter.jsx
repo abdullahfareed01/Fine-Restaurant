@@ -1,8 +1,7 @@
 import React from "react";
 import SubHeading from "../SubHeading/SubHeading";
-// import SubHeading from "../../SubHeading/SubHeading";
-
 import "./newsletter.css";
+
 function Newsletter() {
   return (
     <>
